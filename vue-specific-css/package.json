@@ -1,0 +1,19 @@
+{
+  "name": "@mfro/vue-specific-css",
+  "version": "1.0.1",
+  "description": "Improve modular css for vue and vue-loader",
+  "author": "Max Froehlich <max@mfroehlich.me>",
+  "peerDependencies": {
+    "vue": "^2.5.3"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.1",
+    "vue": "^2.5.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts"
+}
